@@ -24,14 +24,14 @@ This repository contains all the manual testing artifacts for the **[Project Nam
   - Expected Result
   - Status (Pass/Fail)
   
-<img src="" alt="Test Cases" width="700" height="400"/>
+<img src="https://github.com/sabina294/Project-01-Login-Test-Case/blob/main/write-test-case.png?raw=true" alt="Test Cases" width="700" height="400"/>
 
 ### 2. **Test Execution**
 - Executed all test cases manually across supported browsers/devices.
 - Marked each test with actual results and status.
 - Attached screenshots for failed cases (if applicable).
 
-<img src="" alt="Test Cases" width="700" height="400"/>
+<img src="https://github.com/sabina294/Project-01-Login-Test-Case/blob/main/execute-test-case.png?raw=true" alt="Test Cases" width="700" height="400"/>
 
 ### 3. **Bug Reporting**
 - Logged defects for failed test cases.
@@ -44,7 +44,7 @@ This repository contains all the manual testing artifacts for the **[Project Nam
   - Status (New, Open, Fixed, Closed)
   - Screenshot (if available)
 
-<img src="" alt="Test Cases" width="700" height="400"/>
+<img src="https://github.com/sabina294/Project-01-Login-Test-Case/blob/main/bug-report.png?raw=true" alt="Test Cases" width="700" height="400"/>
 
 ### 4. **Test Summary Report**
 - Summarized total test cases, pass/fail status, defect trends.
