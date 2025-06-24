@@ -1,0 +1,16 @@
+FeedBack                                ,,,,,,
+#,Featurs Name,Title,Feedback,Recommendation, Date,Identified By
+1,Login ,Project Name Display,The login interface does not currently display the project or application name.,Include the project name at the top of the login form or page to clearly identify the application.,9 May 2025,Sabina
+2,,"""Remember Me"" Option
+",There is no checkbox or option for users to remain logged in.,"Add a ""Remember Me"" checkbox to improve user convenience and reduce frequent logins.",9 May 2025,Sabina
+3,,"""Forgot Password"" Link
+",The interface lacks a password recovery option.,"Include a ""Forgot Password?"" link to allow users to reset their passwords securely.",9 May 2025,Sabina
+4,,"Company Name / Logo
+",The login page is missing branding elements such as a logo or company name.,Add your company logo and name to enhance brand recognition and trust.,9 May 2025,Sabina
+5,,"Language Toggle (EN/BN)
+",The platform does not support multilingual options.,"Provide a toggle switch or dropdown for language selection (e.g., English / Bangla) to improve accessibility for diverse users.",9 May 2025,Sabina
+6,,"Password Visibility Toggle Icon
+
+",There is no icon to toggle password visibility in the input field.,"Add an eye icon to allow users to view/hide password text as needed, improving usability.",9 May 2025,Sabina
+7,,"Mobile App Download Links
+",No links or QR codes are provided to download the mobile application.,Include app store badges or QR codes for Android and iOS app downloads to promote mobile accessibility.,9 May 2025,Sabina

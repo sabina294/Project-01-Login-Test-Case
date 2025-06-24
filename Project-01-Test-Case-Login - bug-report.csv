@@ -1,0 +1,26 @@
+Bug Report,,,,,,,,
+"Project Name: Login Feature
+Report Created By:  Sabina Yeasmin
+Report Creation Date: 09 May 2025
+Number of Bugs: 05",,,,,,,,
+Bug ID,Title,Description,Steps to reproduce,Expected result,Actual result,Severity,Priority,Attachement
+B_001,Incorrect Error Message on Invalid Email," When a user enters an invalid email but a valid password, the system incorrectly displays the message ""Incorrect password"" instead of indicating an invalid email.","1. Open the login page
+2. Enter an invalid email
+3. Enter a valid password
+4. Click on the login button","Display a validation message such as
+Please enter a valid email address","Error message shows ""Incorrect password"".",Low,Medium,Invalid Message
+,,,,,,,,
+B_002,Input Field Validation Not Triggered	,"When the email field is filled with a password and the password field is filled with an email, the system does not trigger a validation error.","1. Open the login page
+2. Enter a password in the email field
+3. Enter an email in the password field",Each input field contains a placeholder attribute and format validation.,No validation error messages are shown.,Medium,High,Format Validation
+,,,,,,,,
+B_003,Valid Credentials Fail to Redirect to Dashboard.,"After entering valid email and password, the user is returned to the login page instead of being redirected to the dashboard.","1. Open the login page
+2. Enter valid email and password
+3. Click on the login button",Users should be redirected to the dashboard if the login is successful.,"Login fails, and the user remains on the login page.",High,High,Unsuccessful Dashboard
+,,,,,,,,
+B_004,Password Input Not Masked.	,The password field displays characters instead of masking them as they are typed.,"1. Open the login page
+2. Enter text in the password field",Passwords must be hidden as they are typed.,Password characters are visible on the screen.,Medium,High,Password Hide
+,,,,,,,,
+B_005,Active User Login Fails.	,"Even when active users enter valid credentials, login is not successful.","1. Open the login page
+2. Enter valid credentials of an active user
+3. Click on the login button",Login should only be allowed for active users.,Login fails for active users.,High,High,Unsuccessful Active User
