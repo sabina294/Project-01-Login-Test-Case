@@ -49,7 +49,9 @@ This repository contains all the manual testing artifacts for the **[Project Nam
 ### 4. **Test Summary Report**
 - Summarized total test cases, pass/fail status, defect trends.
 - Provided observations and improvement suggestions.
-![Alt text](Screenshots/filename.png)
+- Screenshot (if available)
+
+<img src="https://github.com/sabina294/Project-01-Login-Test-Case/blob/main/test-report.png?raw=true" alt="Test Cases" width="700" height="400"/>
 
 ---
 
