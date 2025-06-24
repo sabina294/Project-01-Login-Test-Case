@@ -1,0 +1,105 @@
+,Project Name:,Login Feature,,,,,
+,Role,,,,,,
+,Feature Name:,Login,,,,,
+,Reference Document:,,,,,,
+,Created By:,Sabina Yeasmin,,,,,
+,Updated By:,,,,,,
+,Date of Creation:,9 May 2025,,,,,
+,Number of  cases:,15,,,,,
+,Passed,,,,,,
+,Failed,,,,,,
+,,,,,,,
+#,TEST CASE ID, CASE TITLE, STEPS, DATA,EXPECTED RESULT,ACTUAL RESULT,QA STATUS
+1,TC-01,Verify login functionality with valid email and valid password.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",The system should provide fields for the user to enter their email and password.,,
+2,TC-02,Verify successful message is confirmation model displayed when email or password is correct.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",Should be  successful message is confirmation model displayed.,,
+3,TC-03,Verify login fails when an invalid email is entered with a valid password.,"1. Navigate to the login page.
+2. Enter an invalid email.
+3. Enter an  valid password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example
+Password: 123456
+N/A","Display a validation message such as
+Please enter a valid email address",,
+4,TC-04,Verify login fails when an valid email is entered with a invalid password.,"1. Navigate to the login page.
+2. Enter an valid email.
+3. Enter an  invalid password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 1234567
+N/A","Display a validation message such as
+Please enter a valid password",,
+5,TC-05,Verify Login Fails with Invalid Email and Invalid Password,"1. Navigate to the login page.
+2. Enter an invalid email.
+3. Enter an  invalid password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example
+Password: 1234567
+N/A","
+A generic error message should appear, such as
+Invalid email or password",,
+6,TC-06,Verify placeholder text is correctly displayed in input fields.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: 123456
+Password: test@example.com
+N/A",Each input field contains a placeholder attribute.,,
+7,TC-07,Verify That a Login Button Is Available to Submit Credentials.,"1. Navigate to the login page.
+2. Verify that a ""Login"" button is visibly present on the page.
+3. Enter valid credentials in the email and password fields.
+4. Click the ""Login"" button.
+5. Observe if the system processes the login request appropriately.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+N/A
+Email: test@example.com
+Password: 123456
+N/A",A Login button must be available to submit the credentials.,,
+8,TC-08,Verify user is redirected to the dashboard after successful login.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.""","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",Users should be redirected to the dashboard if the login is successful.,,
+9,TC-09,Verify error message is displayed when email or password is incorrect.,"1. Navigate to the login page.
+2. Enter an invalid email.
+3. Enter an  invalid password.
+4. Click on the ""Login"" button.""","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Invalid Email: test@example
+Invalid Password: 1234567
+N/A","If the email or password is incorrect, an error message should be shown.",,
+10,TC-10,Verify that the password is hidden (masked) as the user types.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",Passwords must be hidden as they are typed.,,
+11,TC-11, Verify that login is allowed only for active users.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",Login should only be allowed for active users.,,
+12,TC-12,Verify login completes within 3 seconds.,"1. Navigate to the login page.
+2. Enter a valid email.
+3. Enter the correct password.
+4. Click on the ""Login"" button.","Visit Url: https://muntasir101.github.io/STLC-Practice/
+Email: test@example.com
+Password: 123456
+N/A",The login operation should complete within 3 seconds.,,
+13,TC-13,Verify page elements appear in english for email or password.,1. Navigate to the login page.,"Visit Url: https://muntasir101.github.io/STLC-Practice/
+",All the page elements will appear in English.,,
+14,TC-14, Verify that the system is available 24/7,,,,,
+15,TC-15,Verify that user credentials are securely handled.,,,,,
